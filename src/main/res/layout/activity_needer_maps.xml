@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:id="@+id/drawer_layout"
+tools:context=".NeederMapsActivity"
+android:fitsSystemWindows="false"
+tools:openDrawer="start">
+
+
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
+<com.google.android.material.navigation.NavigationView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/nav_view"
+    app:headerLayout="@layout/header"
+    app:menu="@menu/main_menu"
+
+    android:layout_gravity="start"/>
+
+
+
+<!--<RelativeLayout-->
+<!--android:background="@color/colorPrimaryDark"-->
+<!--android:id="@+id/layout_main"-->
+<!--android:layout_height="match_parent"-->
+<!--android:layout_width="match_parent">-->
+
+
+
+<RelativeLayout
+    android:background="@color/colorPrimaryDark"
+    android:id="@+id/layout_main"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toobar"/>
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="-43dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="48dp"
+        android:layout_width="match_parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment">
+
+    </fragment>
+
+    <Button
+        android:id="@+id/buttonShow"
+        android:layout_width="400dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="710dp"
+        android:text="Show Button on Bottom Sheet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        />
+<!--        android:layout_marginLeft="150dp"-->
+
+
+
+
+
+
+
+</RelativeLayout>
+<!--</RelativeLayout>-->
+
+<!--    <include layout="@layout/meun"/>-->
+</androidx.drawerlayout.widget.DrawerLayout>

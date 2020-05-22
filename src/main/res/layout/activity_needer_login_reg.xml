@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/moverlogo"
+    tools:context=".NeederLoginRegActivity">
+
+    <TextView
+        android:id="@+id/needer_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Needer Login"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:textColor="#9CCCF1"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="80dp"
+
+        />
+
+    <EditText
+        android:id="@+id/needer_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/needer_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="200dp"
+        android:hint="Password"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:inputType="textPassword"
+
+        />
+
+    <Button
+        android:id="@+id/needer_login_btn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="270dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/register_needer_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="330dp"
+        android:textSize="15sp"
+        android:textColor="#F10303"
+        android:textAllCaps="false"
+        android:text="Don't have an account?" />
+
+    <Button
+        android:id="@+id/needer_register_btn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="360dp"
+        android:alpha="0.4"
+        android:background="#ffffff"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="#EA1132"
+        android:textSize="20sp" />
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "904228478844",
+    "firebase_url": "https://mover-4954b.firebaseio.com",
+    "project_id": "mover-4954b",
+    "storage_bucket": "mover-4954b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904228478844:android:d06efa8372c067d01b0ef9",
+        "android_client_info": {
+          "package_name": "com.example.mover2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904228478844-2eu1112upnqssle1fh55dhuk4g7pbdag.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mover2",
+            "certificate_hash": "5ac5b6d2dc4658c0ef726895fb8029cb656442b7"
+          }
+        },
+        {
+          "client_id": "904228478844-8gt2e4ccb1unoev3qh657qbkojp8tc3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbP2Gh9g98ol3weCjFtlmQrQUuPCmVlXs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904228478844-8gt2e4ccb1unoev3qh657qbkojp8tc3v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="start"
+    android:id="@+id/drawerView"
+    android:orientation="vertical">
+
+    <!--여기에다가 메뉴 눌렀을때 나오는 네비게이션 바를 디자인 그냥 쭉 옮ㄱ보세요 -->
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/light_blue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:text="MoverWorld"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="www.KyuandJoseph.com"
+        android:textSize="14sp" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/home_icon">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="home"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp">
+        </TextView>
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>

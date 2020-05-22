@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mover</string>
+    <string name="title_activity_mover_maps">Map</string>
+    <string name="map_key" translatable="false">AIzaSyB80piKOmM74V1LQIrJX2mdvmVd-Ql_LgU</string>
+    <string name="navigation_drawe_open">Open navigation drawer</string>
+    <string name="navigation_drawe_close">Close navigation drawer</string>
+    <string name="title_activity_needer_maps_activirt">Map</string>
+
+
+</resources>
